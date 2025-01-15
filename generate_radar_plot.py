@@ -8,13 +8,9 @@ Created on Mon Jan 13 20:14:30 2025
 
 import pandas as pd
 import plotly.graph_objects as go
-import plotly.express as px
-import random
-from matplotlib import pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-import shap
 
 
 file_path = "data/career_change_prediction_dataset.csv"
